@@ -1,0 +1,66 @@
+body {
+	font-family: cursive, Brush Script MT  ;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+header {
+	background-color: #e8a006;
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px hsla(5, 92%, 52%, 0.302);
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+label {
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type="file"] {
+	margin-bottom: 20px;
+}
+
+button[type="submit"] {
+	background-color: hsla(0, 25%, 64%, 0.979);
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#malware-results {
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #8f1111;
+	border-radius: 4px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
